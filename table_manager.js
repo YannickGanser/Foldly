@@ -52,3 +52,8 @@ function show_dynamik() {
         show_column(counter);
     }
 }
+function show_all() {
+    for (let j = 0; j < 5; j++) {
+        show_column(j);
+    }
+}
