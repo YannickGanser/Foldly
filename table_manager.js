@@ -53,6 +53,7 @@ function show_dynamik() {
     }
 }
 function show_all() {
+    counter =0;
     for (let j = 0; j < 5; j++) {
         show_column(j);
     }
