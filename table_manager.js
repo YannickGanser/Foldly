@@ -3,7 +3,7 @@ var counter=0;
 function init() {
     const limit =5;
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 5; i++) {
 
         const row = document.createElement("tr")
         let str ="<td contenteditable=\"true\" class =" + i.toString() +"></td> \n"
